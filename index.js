@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 const app = express();
 
 // SÉCURITÉ V19.6
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'Galilee2026CI_SECURE!'; // CHANGE ICI TON MOT DE PASSE SECRET
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'Galilee2026!'; // CHANGE ICI TON MOT DE PASSE SECRET
 const ADMIN_TOKEN_SECRET = 'RE-TOKEN-' + ADMIN_PASSWORD; // Token interne
 
 // IMPORTANT: 50MB pour les photos
